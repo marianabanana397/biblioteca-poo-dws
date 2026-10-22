@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f5f9;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 600px;
+    margin: 30px auto;
+    padding: 25px;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 3px 12px #00000015;
+}
+
+h1, h2 {
+    color: #254b70;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input {
+    padding: 10px;
+    border: 1px solid #bbb;
+    border-radius: 5px;
+}
+
+button {
+    padding: 12px;
+    background-color: #254b70;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #376b9c;
+}
+
+#listaLivros {
+    padding-left: 20px;
+}
+
+#listaLivros li {
+    margin: 12px 0;
+    padding: 10px;
+    background-color: #eef3f8;
+    border-radius: 5px;
+}
+
+#mensagem {
+    text-align: center;
+}
